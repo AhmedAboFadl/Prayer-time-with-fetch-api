@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+html {
+
+  direction: rtl;
+}
+
+* {
+
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+
+section {
+
+  display: flex;
+  background-image: url(.//mosque.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+section .container {
+  width: 560px;
+  background: #2c59ac4e;
+  color: aliceblue;
+  padding: 30px 25px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgb(160, 156, 149);
+  align-items: center;
+  margin-right: 15%;
+
+}
+
+section .top-section {
+
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  border-bottom: 1px solid white;
+  margin-bottom: 40px;
+
+}
+
+section .top-section select {
+
+  width: 250px;
+  border-radius: 5px;
+  outline: none;
+  background: rgba(216, 116, 1, 0.685);
+  color: white;
+  padding: 2px 10px;
+  font-size: 22px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+section .top-section h3 {
+
+
+  font-size: 26px;
+
+}
+
+section .top-section .date {
+
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+section .prayer {
+
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+  background: rgba(216, 116, 1, 0.685);
+  margin-bottom: 25px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
